@@ -1,10 +1,11 @@
 import styled from 'styled-components';
 
 export const Container = styled.header`
-  position:sticky;
+  position:fixed;
   background: ${({theme})=>theme.color.main};
   height:4rem;
   border-bottom: 1px solid ${({theme})=>theme.color.gray_800};
+  width:100%;
 .headerContent{
   max-width: 1120px;
   height: 4rem;
