@@ -1,26 +1,33 @@
 const defaultTheme = {
     color:{
-        gray_100: '#000000',
-        gray_200: '#161A20',
-        gray_300: '#2D3540',
-        gray_400: '#434F60',
-        gray_500: '#5A697F',
-        gray_600: '#7B8799',
-        gray_700: '#9CA5B3',
-        gray_800: '#BDC3CC',
-        gray_900: '#DEE1E6',
+        gray_100: '#00000F',
+        gray_200: '#343940',
+        gray_300: '#697380',
+        gray_400: '#9DACBF',
+        gray_500: '#D1E5FF',
+        gray_600: '#DAEAFF',
+        gray_700: '#E4EFFF',
+        gray_800: '#EDF5FF',
+        gray_900: '#F6FAFF',
         gray_1000: '#F7FAFF',
-        orange_hover: '#8C5B13',
-        alert_hover: '#8C2B1B',
-        blue_primary: '#3965A9',
-        blue_hover: '#3E5E8C',
-        blue_secondary: '#294266',
-        blue_darken: '#152133',
+
+        main:'#7029E1',
+        primary: '#1279FF',
+        secondary: '#F78D1E',
+
         default: '#6BA2F6',
-        alert: '#C34124',
-        yallow_primary: '#d31e45',
-        orange_primary: '#E2981D',
+        alert: '#d31e45',
+        success:'#45FF29',
+
     },
+    texts:{
+      main_title:'900 3rem/4.5rem Roboto, sans-serif',//h1
+      title:'700 2rem/3.5rem Roboto, sans-serif',//h2
+      sub_title:'700 1.5rem/3rem Roboto, sans-serif',//h3
+      main_text:'400 1rem/1.5rem Roboto, sans-serif',//p, a ...
+      main_strong:'700 1rem/1.5rem Roboto, sans-serif',//strong
+      small_text:'300 0.875rem/1.3125rem Roboto, sans-serif'//p, a, small ..
+    }
 }
 
 export type ThemeType = typeof defaultTheme
