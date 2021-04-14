@@ -9,7 +9,6 @@ export const Header:React.FC = ()=> {
         <a className="logo" href="/">CONNECT<small>GDN</small></a>
         <nav>
           <a className="active" href="">Home</a>
-          {/* <a href="">About</a> */}
           <a href="">About</a>
           <a href="">Projects</a>
           <a href="">Services</a>
