@@ -139,11 +139,18 @@ export const Container = styled.div`
       margin:0 2rem;
 
       & + div{
-        margin-top: 2rem;
+        margin-top: 4rem;
       }
       .imageContainer1{
         order:1;
         margin-bottom: 2rem;
+      }
+      .mainContent1{
+        color: ${({theme})=>theme.color.gray_200};
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        text-align:start;
       }
     }
     //container 2
@@ -154,11 +161,18 @@ export const Container = styled.div`
       margin:0 2rem;
 
       & + div{
-        margin-top: 2rem;
+        margin-top: 4rem;
       }
       .imageContainer2{
         order:1;
         margin-bottom: 2rem;
+      }
+      .mainContent2{
+        color: ${({theme})=>theme.color.gray_200};
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        text-align:start;
       }
     }
     //container 3
@@ -169,27 +183,41 @@ export const Container = styled.div`
       margin:0 2rem;
 
       & + div{
-        margin-top: 2rem;
+        margin-top: 4rem;
       }
       .imageContainer3{
         order:1;
         margin-bottom: 2rem;
       }
+      .mainContent3{
+        color: ${({theme})=>theme.color.gray_200};
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        text-align:start;
+      }
     }
     //container 4
-    .container2{
+    .container4{
       display:flex;
       flex-direction:column;
       align-items:flex-start;
       margin:0 2rem;
 
       & + div{
-        margin-top: 2rem;
+        margin-top: 4rem;
       }
-      .imageContainer2{
+      .imageContainer4{
         order:1;
         margin-bottom: 2rem;
       }
+      .mainContent4{
+        color: ${({theme})=>theme.color.gray_200};
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        text-align:start;
+      }
     }
   }
-`;
+`
