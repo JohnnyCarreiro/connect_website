@@ -1,6 +1,5 @@
 import React, { ReactNode } from 'react'
 import Head from 'next/head'
-import { Header } from './Header'
 import Navbar from './Navbar'
 
 type Props = {
