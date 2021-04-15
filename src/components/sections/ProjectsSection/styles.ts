@@ -19,7 +19,7 @@ export const Container = styled.div`
   .container1{
     display:flex;
     align-items:flex-start;
-    margin:0 auto;
+    margin:2rem auto;
     max-width:1140px;
       .imageContainer1{
         order:2;
@@ -47,7 +47,7 @@ export const Container = styled.div`
   .container2{
     display:flex;
     align-items:flex-start;
-    margin:0 auto;
+    margin:2rem auto;
     max-width:1140px;
       .imageContainer2{
         order:1;
@@ -75,7 +75,7 @@ export const Container = styled.div`
   .container3{
     display:flex;
     align-items:flex-start;
-    margin:0 auto;
+    margin:2rem auto;
     max-width:1140px;
       .imageContainer3{
         order:2;
@@ -103,7 +103,7 @@ export const Container = styled.div`
   .container4{
     display:flex;
     align-items:flex-start;
-    margin:0 auto;
+    margin:2rem auto;
     max-width:1140px;
       .imageContainer4{
         order:1;
