@@ -1,5 +1,6 @@
 import { MainHero } from 'components/MainHero'
 import { AboutSection } from 'components/sections/AboutSection'
+import { ProjectsSection } from 'components/sections/ProjectsSection'
 import { Layout } from '../components/Layout'
 
 const IndexPage = () => (
@@ -7,6 +8,9 @@ const IndexPage = () => (
     <MainHero/>
     <section>
       <AboutSection/>
+    </section>
+    <section>
+      <ProjectsSection/>
     </section>
     <h1>Hello World 👋</h1>
   </Layout>
