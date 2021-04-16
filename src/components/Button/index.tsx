@@ -4,7 +4,7 @@ import { Container } from './styles';
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLElement> {
   text:string
-  link:string
+  link?:string
   isPrimary:boolean
   primaryColor?:boolean
 }
