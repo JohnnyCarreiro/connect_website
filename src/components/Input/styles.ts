@@ -42,8 +42,8 @@ export const Container = styled.div<ContainerProps>`
   select:-webkit-autofill:focus {
     border: none;
     -webkit-text-fill-color: ${({theme})=>theme.color.secondary};
-    -webkit-box-shadow: 0 0 0px 1000px #232129 inset;
-    box-shadow:0 0 0px 1000px #232129 inset;
+    -webkit-box-shadow: 0 0 0px 1000px #EDF5FF inset;
+    box-shadow:0 0 0px 1000px #EDF5FF inset;
     /* transition: background-color 5000s ease-in-out 0s; */
   }
   input{
