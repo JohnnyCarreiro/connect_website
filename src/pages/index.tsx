@@ -20,7 +20,6 @@ const IndexPage = () => (
     <section>
       <RequestAMeetingSection/>
     </section>
-    <h1>Hello World 👋</h1>
   </Layout>
 )
 

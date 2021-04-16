@@ -1,6 +1,7 @@
 import React, { ReactNode } from 'react'
 import Head from 'next/head'
 import Navbar from './Navbar'
+import { Footer } from './Footer'
 
 type Props = {
   children?: ReactNode
@@ -17,10 +18,7 @@ export const Layout = ({ children, title = 'This is the default title' }: Props)
     <main>
       {children}
     </main>
-    <footer>
-      <hr />
-      <span>I'm here to stay (Footer)</span>
-    </footer>
+    <Footer/>
   </>
 )
 
