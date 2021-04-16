@@ -1,6 +1,7 @@
 import { MainHero } from 'components/MainHero'
 import { AboutSection } from 'components/sections/AboutSection'
 import { ProjectsSection } from 'components/sections/ProjectsSection'
+import { RequestAMeetingSection } from 'components/sections/RequestAMeetingSection'
 import { ServicesSection } from 'components/sections/ServicesSection'
 import { Layout } from '../components/Layout'
 
@@ -15,6 +16,9 @@ const IndexPage = () => (
     </section>
     <section>
       <ServicesSection/>
+    </section>
+    <section>
+      <RequestAMeetingSection/>
     </section>
     <h1>Hello World 👋</h1>
   </Layout>
