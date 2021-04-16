@@ -7,7 +7,7 @@ export const ServicesSection:React.FC = () => {
     <Container>
       <div className="title">
         <h1>Serviços</h1>
-        <h3>Alguns serviços que provemos</h3>
+        <h3>Você também pode contar com soluções<br/> individuais nas áreas que atuamos.</h3>
       </div>
       <div className="wrapper">
         <div className="container">
